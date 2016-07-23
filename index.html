@@ -17,31 +17,8 @@
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 </head>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type='text/javascript'>
-    $(document).ready(function () {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 100) {
-                $('#scroll').fadeIn();
-            } else {
-                $('#scroll').fadeOut();
-            }
-        });
-        $('#scroll').click(function () {
-            $("html, body").animate({
-                scrollTop: 0
-            }, 600);
-            return false;
-        });
-    });
-</script>
 
 <body class="landing">
-    <!-- BackToTop Button -->
-    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
-
-    <!-- ++++++++++++ Page Content Goes Here ++++++++++++ -->
-
 
     <!-- Page Wrapper -->
     <div id="page-wrapper">
@@ -57,9 +34,18 @@
                         <div id="menu">
                             <ul>
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="brands.html">Brands</a>
+                                <li><a href="brands.html">Brands</a></li>
+                                
+                                <li>Products</li>
+                                <ul>
+                                <li>
+                                <a href="Fabric.html">- Fabric</a>
+                                <a href="handbag.html">- Handbags</a>
+                                <a href="handcraft.html">- Handcraft</a>
                                 </li>
-                                <li><a href="elements.html">Products</a></li>
+                                </ul>
+
+                                
                                 <li><a href="#">Contact</a></li>
 
                             </ul>
@@ -120,7 +106,7 @@
             <section class="spotlight">
                 <div class="image"><img src="images/pic02.jpg" alt="" /></div>
                 <div class="content">
-                    <h2>Bag</h2>
+                    <h2>Handbags</h2>
                     <p class="content1">Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
                     <ul class="actions">
                         <li><a href="#" class="button special">Read More</a></li>
