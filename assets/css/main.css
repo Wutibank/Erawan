@@ -3630,7 +3630,7 @@
 	#main > header {
 		padding: 12em 0 10em 0 ;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/jantra/bg.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-attachment: fixed;
@@ -3696,6 +3696,79 @@
 	body.is-mobile #main > header {
 		background-attachment: scroll;
 	}
+
+/* Main2 */
+
+	#main2 > header {
+		padding: 12em 0 10em 0 ;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/pic01.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
+		#main2 > header h2 {
+			font-size: 1.75em;
+			margin: 0 0 0.5em 0;
+		}
+
+		#main2 > header p {
+			color: inherit;
+			letter-spacing: 0.225em;
+			text-transform: uppercase;
+			top: 0;
+		}
+
+			#main2 > header p a {
+				color: inherit;
+			}
+
+		@media screen and (max-width: 1680px) {
+
+			#main2 > header {
+				padding: 10em 0 8em 0 ;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#main2 > header {
+				padding: 8em 3em 6em 3em ;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#main2 > header {
+				padding: 10em 3em 8em 3em ;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#main2 > header {
+				padding: 5em 3em 3em 3em ;
+			}
+
+				#main2 > header h2 {
+					font-size: 1.25em;
+					margin: 0 0 1em 0;
+				}
+
+		}
+
+	body.is-mobile #main2 > header {
+		background-attachment: scroll;
+	}
+
 
 /* Footer */
 
@@ -3813,11 +3886,11 @@
 		background-color: #1d242a;
 	}
 p.content1 {
-    font-family: Open Sans;
+    font-family: "Open Sans";
 }
 
 .image-brands {
-    padding: 20px
+    padding: 0px
 }
 
 #scroll {
@@ -3849,4 +3922,64 @@ p.content1 {
     background-color:#e74c3c;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
+}
+.image1 {
+    background-color: #fff;
+}
+
+.headlogo {
+    background-image: url(images/jantra-bg.gif);
+    width: 1000px;
+}
+
+.head1 {
+    padding: 8vh;
+}
+
+.image-content {
+    width: 46vw;
+}
+
+.btn-my {
+   padding: 20px;
+}
+
+.centered {
+    text-align:center;
+}
+
+.padding-my {
+    padding-top: 2vh;
+}
+
+	.wrapper.style-my {
+			background-color: #fff;
+        padding: 0px;
+        margin: 0px;
+		}
+}
+
+
+
+p.black-font {
+    color: black;
+}
+
+#”blackF” {
+    color: #666666;
+;
+}
+
+.bg-my {
+    background-color: #E3E3E2;
+margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+#description {
+    color: #737372;
+    padding: 10px;
 }
